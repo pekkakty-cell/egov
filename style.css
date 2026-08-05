@@ -24,6 +24,7 @@ header {
 
 .logo h3{
     color: cadetblue;
+    font-size: 25px;
 
 }
 
@@ -47,6 +48,7 @@ header {
 .banner {
     position: relative;
     background-color: lightblue;
+
 }
 
 .text{
@@ -57,7 +59,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    margin-top: 20px;
+
 
 }
 
@@ -99,12 +101,13 @@ header {
 }
 
 .banner-content strong{
-    font-size:30px
+    font-size: 30px
 }
 
 .banner-control{
     display: flex;
     margin-left: 250px;
+    gap: 5px
 }
 
 .c button{
@@ -112,13 +115,20 @@ header {
     border-radius: 100px;
     background-color: white;
     font-size: 30px;
+}
+.cc button{
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px;
+    font-size: 15px;
 
 }
 
 .c{
     background-color: white;
     border: none;
-    border-radius: 10px 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
 }
 
 .board-header{
