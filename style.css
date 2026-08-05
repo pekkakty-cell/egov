@@ -19,12 +19,13 @@ header {
 
 .logo h5{
     color: gray;
+    font-size: 15px;
 
 }
 
 .logo h3{
     color: cadetblue;
-    font-size: 25px;
+    font-size: 35px;
 
 }
 
@@ -32,7 +33,9 @@ header {
     display: flex;
     list-style: none;
     gap: 40px;
-    margin-top: 10px
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
 
 }
 
@@ -109,17 +112,30 @@ header {
     margin-left: 250px;
     gap: 5px
 }
-
+.c{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .c button{
     border: none;
     border-radius: 100px;
     background-color: white;
     font-size: 30px;
 }
+
+.circle1{
+    border: none;
+    color: blue;
+}
+
+.circle2{
+    border: none;
+    color: dimgray;
+}
 .cc button{
     border: none;
     border-radius: 100px;
-    padding: 10px 15px;
+    padding: 9px 15px;
     font-size: 15px;
 
 }
@@ -152,6 +168,13 @@ header {
     margin-top: 12px;
     gap: 30px;
     font-size: 19px;
+    font-weight: bold;
+}
+
+.active{
+    color: navy;
+    border-bottom-style: solid;
+    border-radius: 3px;
 }
 
 .board-header p{
