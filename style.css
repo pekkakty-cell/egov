@@ -20,11 +20,14 @@ header {
 .logo h5{
     color: gray;
     font-size: 15px;
+    margin-bottom: -15px;
 
 }
 
 .logo h3{
-    color: cadetblue;
+    background: linear-gradient(to right, #62a162, #18528d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 35px;
 
 }
@@ -39,12 +42,29 @@ header {
 
 }
 
-.util ul {
+.imo {
     display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+    margin-right: 270px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    font-weight: bold;
+    font-size: 15px
+
+}
+
+.til {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
     gap: 15px;
     margin-right: 250px;
-    margin-top: 10px
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px
 
 }
 
@@ -97,10 +117,10 @@ header {
     padding: 10px 20px 10px 20px;
     background-color: navy;
     color: white;
-
 }
+
 .b4 button strong{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .banner-content strong{
@@ -110,7 +130,8 @@ header {
 .banner-control{
     display: flex;
     margin-left: 250px;
-    gap: 5px
+    gap: 5px;
+    margin-top: -50px
 }
 .c{
     padding-left: 15px;
