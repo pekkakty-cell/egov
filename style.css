@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -13,33 +14,31 @@ header {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.logo{
+
+.logo {
     margin-left: 250px;
 }
 
-.logo h5{
+.logo h5 {
     color: gray;
     font-size: 15px;
     margin-bottom: -15px;
-
 }
 
-.logo h3{
+.logo h3 {
     background: linear-gradient(to right, #62a162, #18528d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 35px;
-
 }
 
-.menu ul{
+.menu ul {
     display: flex;
     list-style: none;
     gap: 40px;
     margin-top: 15px;
     font-size: 17px;
     font-weight: bold;
-
 }
 
 .imo {
@@ -47,13 +46,9 @@ header {
     justify-content: space-between;
     list-style: none;
     gap: 15px;
-    margin-right: 270px;
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-bottom: -10px;
+    margin: 10px 270px -10px 15px;
     font-weight: bold;
     font-size: 15px
-
 }
 
 .til {
@@ -65,53 +60,51 @@ header {
     margin-top: 10px;
     font-weight: bold;
     font-size: 15px
-
 }
 
 .banner {
     position: relative;
-    background-color: lightblue;
-
+    background: linear-gradient(to right, #bde3f3, #a9d08b);
 }
 
-.text{
+.text {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.b3{
+
+.b3 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-
-
 }
 
-.b1 button{
+.b1 button {
     border: none;
     border-radius: 100px;
     padding: 15px 25px;
     font-size: 30px;
-    background-color: darkgray;
+    background-color: rgba(0, 0, 0, 0.1);
     margin-left: 250px;
     margin-top: 70px
 }
 
-.b2 button{
+.b2 button {
     border: none;
     border-radius: 100px;
     padding: 15px 25px;
     font-size: 30px;
-    background-color: darkgray;
+    background-color: rgba(0, 0, 0, 0.1);
     margin-right: 250px;
     margin-top: 70px
 }
 
-.banner-content{
+.banner-content {
     text-align: center;
     align-items: center;
     margin-top: 20px;
 }
-.b4 button{
+
+.b4 button {
     border: none;
     border-radius: 10px 10px;
     padding: 10px 20px 10px 20px;
@@ -119,71 +112,67 @@ header {
     color: white;
 }
 
-.b4 button strong{
-    font-size: 15px;
+.b4 button strong {
+    font-size: 18px;
 }
 
-.banner-content strong{
+.banner-content strong {
     font-size: 30px
 }
 
-.banner-control{
+.banner-control {
     display: flex;
     margin-left: 250px;
     gap: 5px;
     margin-top: -50px
 }
-.c{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.c button{
+
+.c button {
     border: none;
     border-radius: 100px;
     background-color: white;
     font-size: 30px;
 }
 
-.circle1{
+.circle1 {
     border: none;
     color: blue;
 }
 
-.circle2{
+.circle2 {
     border: none;
     color: dimgray;
 }
-.cc button{
+
+.cc button {
     border: none;
     border-radius: 100px;
-    padding: 9px 15px;
+    padding: 10px 15px;
     font-size: 15px;
-
+    font-weight: bold;
+    background-color: white;
 }
 
-.c{
+.c {
     background-color: white;
     border: none;
     border-radius: 30px;
     margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.board-header{
+.board-header {
     display: flex;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin: 25px 250px;
     justify-content: space-between;
 }
 
-
-
-.board-header h3{
+.board-header h3 {
     font-size: 30px;
 }
 
-.board-header ul{
+.board-header ul {
     list-style: none;
     display: flex;
     margin-top: 12px;
@@ -192,13 +181,13 @@ header {
     font-weight: bold;
 }
 
-.active{
+.active {
     color: navy;
     border-bottom-style: solid;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
-.board-header p{
+.board-header p {
     margin-top: 12px;
     font-size: 19px;
 }
@@ -210,6 +199,7 @@ header {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
 .board-list p {
     overflow: hidden;
     white-space: nowrap;
@@ -220,8 +210,7 @@ header {
     margin-bottom: 20px;
 }
 
-
-.row1, .row2{
+.row1, .row2 {
     display: flex;
     justify-content: space-between;
     margin-left: 250px;
@@ -230,7 +219,7 @@ header {
     gap: 20px;
 }
 
-.list1, .list2, .list3, .list4{
+.list1, .list2, .list3, .list4 {
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
