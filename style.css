@@ -7,7 +7,6 @@
 header {
     display: flex;
     justify-content: space-between;
-
     border-color: navy;
     border-bottom-style: solid;
     border-bottom-width: 0.5pt;
@@ -32,14 +31,6 @@ header {
     font-size: 35px;
 }
 
-.menu ul {
-    display: flex;
-    list-style: none;
-    gap: 40px;
-    margin-top: 15px;
-    font-size: 17px;
-    font-weight: bold;
-}
 
 .imo {
     display: flex;
@@ -63,8 +54,9 @@ header {
 }
 
 .banner {
+    z-index: 1;
     position: relative;
-    background: linear-gradient(to right, #bde3f3, #a9d08b);
+    background: linear-gradient(to right, #cbd8f8, #d6ecd8);
 }
 
 .text {
@@ -223,9 +215,40 @@ header {
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
-    width: 800px;
-    min-height: 150px;
+    width: 700px;
     padding: 30px;
-    max-width: 800px;
     font-size: 19px;
+    border-color: darkgray;
+}
+
+.menu > ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.subMenu{
+    display: none;
+    z-index: 999;
+    position: absolute;
+    background-color: navy;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    color: white;
+}
+
+.subMenu li{
+    list-style: none;
+}
+
+
+.subMenu.show {
+    display: flex;
+    flex-direction: column;
 }

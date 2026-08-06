@@ -17,6 +17,7 @@
             표준프레임워크 포털 eGovFrame
         </title>
     </head>
+
     <body>
         <header>
             <div class="logo">
@@ -27,7 +28,18 @@
 
             <div class="menu">
                 <ul>
-                    <li>표준프레임워크 소개 ⋁</li>
+                    <li onclick="toggleMenu()">표준프레임워크 소개 ⋁
+                        <ul class="subMenu">
+                            <li>소개</li>
+                            <li>구성</li>
+                            <li>아키텍처</li>
+                            <li>라이선스</li>
+                            <li>적용사례</li>
+                            <li>센터소개</li>
+                            <li>지원서비스</li>
+                            <li>찾아오시는 길</li>
+                        </ul>
+                    </li>
                     <li>개발가이드 ⋁</li>
                     <li>다운로드 ⋁</li>
                     <li>개발자 참여 ⋁</li>
@@ -57,7 +69,7 @@
             <div class="banner">
                 <div class="b3">
                     <div class="b1" >
-                        <button>&lt;</button>
+                        <button ><</button>
                     </div>
                     <div class="banner-content">
                         <strong>전자정부 표준프레임워크 정기교육 일정 변경 안내</strong>
@@ -94,7 +106,7 @@
             <div class="board-header">
                 <h3>게시판</h3>
                 <ul>
-                    <li class="active">공지사항</li>
+                    <li class="active" onclick="changeText()">공지사항</li>
                     <li class="files">자료실</li>
                 </ul>
                 <p>더보기 +</p>
@@ -103,7 +115,7 @@
             <div class="board-list">
                 <div class="row1">
                     <div class="list1">
-                        <strong>2026년도 3분기 공통커포넌트(v5.0.6) 보안 패치 안내</strong>
+                        <strong>2026년도 3분기 공통컴포넌트(v5.0.6) 보안 패치 안내</strong>
                         <p>
                         안녕하십니까?
                         표준프레임워크센터입니다.
@@ -118,7 +130,7 @@
                         <a>자세히보기 →</a>
                     </div>
                     <div class="list2">
-                        <strong>2026년도 3분기 공통커포넌트(v5.0.5) 보안 패치 안내</strong>
+                        <strong>2026년도 3분기 공통컴포넌트(v5.0.5) 보안 패치 안내</strong>
                         <p>
                         안녕하십니까?
                         표준프레임워크센터입니다.
@@ -163,5 +175,14 @@
                 </div>
             </div>
         </section>
+        <script>
+            function changeText() {
+                document.querySelector('.active').textContent = '과제하기 싫다';
+            }
+
+            function toggleMenu(event){
+                document.querySelector('.subMenu').classList.toggle('show');
+            }
+        </script>
     </body>
 </html>
